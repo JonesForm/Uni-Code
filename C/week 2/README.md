@@ -1,8 +1,8 @@
 # Week 2: Program to make
 
-[C "Hello, World!" Program](/c/week%202/HelloWorld.c) <br>
+[C "Hello, World!" Program](/C/week%202/HelloWorld.c) <br>
 [C Program to Print an Integer (Entered by the User)](/C/week%202/EnteredInt.c) <br>
-[C Program to Add Two Integers](/c/week%202/AddTwoInts.c) <br>
+[C Program to Add Two Integers](/C/week%202/AddTwoInts.c) <br>
 [C Program to Multiply Two Floating-Point Numbers](/C/week%202/MultiFloat.c) <br>
 [C Program to Find ASCII Value of a Character](/C/week%202/FindASCII.c) <br>
 
