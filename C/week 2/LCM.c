@@ -4,7 +4,7 @@ int main()
 {
     int n1, n2, max;
 
-    printf ("Enter two numbers with a space between for LCM: ");
+    printf ("Enter two numbers for LCM: ");
     scanf ("%d %d", &n1, &n2);
 
     max = (n1 > n2) ? n1 : n2;

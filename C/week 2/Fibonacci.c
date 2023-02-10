@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    printf ("Enter how many terms you would like: ");
+    printf ("Enter how many terms would you like: ");
     scanf ("%d", &n);
     
     int pos1 = 0, pos2 = 1;
