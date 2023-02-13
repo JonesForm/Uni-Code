@@ -36,6 +36,6 @@ C Program to Find the Roots of a Quadratic Equation N/A <br>
 [C Program to Check Armstrong Number](/C/week%202/Armstrong.c) <br>
 [C Program to Display Armstrong Number Between Two Intervals](/C/week%202/ArmstrongRange.c) <br>
 
-[C Program to Display Factors of a Number](/C/week%202/ <br>
-[C Program to Make a Simple Calculator Using switch...case](/C/week%202/ <br>
-[C Program to Print Pyramids and Patterns](/C/week%202/ <br>
+[C Program to Display Factors of a Number](/C/week%202/Factors.c) <br>
+[C Program to Make a Simple Calculator Using switch...case](/C/week%202/Calculator.c) <br>
+[C Program to Print Pyramids and Patterns](/C/week%202/Pyramid.c) <br>
