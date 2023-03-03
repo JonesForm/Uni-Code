@@ -1,11 +1,18 @@
 #include <stdio.h>
+#include <time.h>
 
 int main()
 {
-    int age;
-    printf("Please enter your age: ");
-    scanf("%d", &age);
+    int birth, age;
+    time_t t;
+    time(&t);
+    struct tm* current_time = localtime(&t);
+
+    printf("Please enter your birth year: ");
+    scanf("%d", &birth);
+    age = (current_time->tm_year + 1900) - birth;
     // IF-ELSE not used as multiple-categorys can be assigned.
+    printf("You are: %d Years old\n", age);
     if (age >= 60)
     {
         printf("You are a Senior\n");
