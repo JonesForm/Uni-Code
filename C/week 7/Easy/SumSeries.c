@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n; s
+    int n, s;
     float sum = 1;
     printf("Enter the number for the series to go to: ");
     scanf("%d", &n);

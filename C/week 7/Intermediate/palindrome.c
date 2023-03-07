@@ -3,7 +3,7 @@
 int main()
 {
     int n, reverse = 0, remainder, original;
-    printf ("Enter a number to reverse: ");
+    printf ("Enter a number to see if a palindrome: ");
     scanf ("%d", &n);
     original = n;
 

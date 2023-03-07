@@ -2,23 +2,30 @@
 
 int main()
 {
-    int row, space, i, k = 0;
+    int row, space, i, j, start;
     printf("Enter the number of rows for pyramid height: ");
     scanf("%d", &row);
 
-    for (i = 1; i < row; ++i, k = 0)
+    for (i = 0; i < row; i++)
     {
-        for (space = 1; space <= row - i; ++space)
+        for (space = 1; space <= row - i; space++)
         {
             printf("  ");
         }
-        while (k != 2 * i - 1)
+        start = 1;
+        for (j = 0; j <= i; j++)
         {
-            printf("* ");
-            ++k;
+            if (i == 0 || j == 0)
+            {
+                start = 1;
+            }
+            else
+            {
+                start = start * (i - j + 1) / j;
+            }
+            printf("%3d ", start);
         }
         printf("\n");
     }
     return 0;
-    
 }
